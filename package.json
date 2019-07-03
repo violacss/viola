@@ -1,0 +1,38 @@
+{
+	"name": "viola-monorepo",
+	"private": true,
+	"scripts": {
+		"build": "lerna run build --stream",
+		"test": "lerna run test --stream",
+		"bs": "lerna bootstrap",
+		"ver": "lerna version --conventional-commits --sign-git-commit --sign-git-tag",
+		"pub": "lerna publish from-package"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.4.4",
+		"@babel/core": "^7.4.5",
+		"@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+		"@babel/preset-env": "^7.4.5",
+		"babel-eslint": "^10.0.2",
+		"babel-jest": "^24.8.0",
+		"babel-plugin-add-header-comment": "^1.0.3",
+		"codecov": "^3.5.0",
+		"commitizen": "^3.1.1",
+		"cz-conventional-changelog": "^2.1.0",
+		"cz-customizable": "^6.2.0",
+		"eslint": "^6.0.1",
+		"husky": "^3.0.0",
+		"jest": "^24.8.0",
+		"lerna": "^3.15.0",
+		"lerna-changelog": "^0.8.2"
+	},
+	"engines": {
+		"node": ">= 8",
+		"yarn": ">= 1.16"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}

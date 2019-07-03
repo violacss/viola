@@ -1,0 +1,30 @@
+{
+  "name": "@violacss/viola",
+  "version": "0.0.0",
+  "description": "Viola is a direction-agnostic and mobile-first functional CSS framework",
+  "license": "MIT",
+  "repository": "https://github.com/violacss/viola.git",
+	"scripts": {
+		"build": "echo hi"
+	},
+	"author": {
+    "name": "Amir Hossein Abdolkhalegh",
+    "url": "https://twitter.com/amirhosseinab"
+  },
+  "keywords": [
+    "css-framework",
+    "violacss",
+    "viola",
+    "bidirectional"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/violacss/viola/issues"
+  },
+  "dependencies": {
+    "@violacss/viola-core": "^0.0.0",
+    "node-sass": "^4.12.0"
+  }
+}

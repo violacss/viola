@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - stable
+  - '10'
+  - '8'
+
+os:
+  - linux
+
+cache:
+  yarn: true
+
+sudo: false
+
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.16.0
+  - export PATH="$HOME/.yarn/bin:$PATH"
+before_script:
+  - yarn bs
+script:
+  - yarn build
+notifications:
+  email: false
+  slack:
+    on_pull_requests: false
+    on_start: never
+    rooms:
+      secure: ulBKpPtdEo07nawux1plDFFGpGhc2gEn9fApwUXs60IBi8RZ2QmRMTiOh/JIkNVXwLWnF83UJQmfhV8UMBGVXUC9/q6oMdMQEtOEkHZMUvbHBa28tSfQriiSdZPRxmEHFEuJ2C/QoCyfIgtEsFcc8dKQ0YISMhNWWlHvTUqauLkHA1YxeSlmxW9osMyKPw3LyKcYASyAS+mk/x7UcVDNOOt29TzsLcqMJ2KcqtYzjPsgFHVvV4q8nxO02EKZvuY/7HRJdNjSnsvnbPLKXxixOE315+T1s/tC78Px1lndgtrRlc2le0SqbowKHsSoBdXZOuNgHuS0Z1kQT2J6X2oXs96cjzkWexp4xYe9PLZ9CdyaWHVj1XA7roZ7rQ9CPLiQxsVh2ArIq+0iH3FD+4+mLRsSrUyziinYZ4X5LhTtSlZ94kXerEmJ/Q7kRCt2WCtIJjkrp/DhZQTOtMebNOk9gYljFLI9xVvlb/loocu8Cjq6m9Dud7wK99Yh6dzjk6y2O3zPqyEojyVKlPZdOPCq8JJCEh01Q48Y7cWUbfXcKhGokvGbmKEewo9QwDrDLwsxZ0yOHe4XK3aB8e+9YjrKOgcR1YYllAhDko/q0qd7D/XYkPMPLVUKhU3iDIoUelGhRlCqnqO+ZzIPDLEkEqC0g7L6wsLctRzeh9zMnJZ8Rxo=

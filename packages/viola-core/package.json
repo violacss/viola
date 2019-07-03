@@ -1,0 +1,27 @@
+{
+	"name": "@violacss/viola-core",
+	"version": "0.0.0",
+	"description": "It is a supplementary JavaScript library which configures ViolaCSS",
+	"license": "MIT",
+	"repository": "https://github.com/violacss/viola.git",
+	"scripts": {
+		"build": "PKG_NAME=viola-core babel --root-mode upward src -d dist"
+	},
+	"author": {
+		"name": "Amir Hossein Abdolkhalegh",
+		"url": "https://twitter.com/amirhosseinab"
+	},
+	"keywords": [
+		"violacss",
+		"viola"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"bugs": {
+		"url": "https://github.com/violacss/viola/issues"
+	},
+	"dependencies": {
+		"node-sass": "^4.12.0"
+	}
+}
