@@ -1,6 +1,6 @@
 {
 	"name": "@violacss/viola-core",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "It is a supplementary JavaScript library which configures ViolaCSS",
 	"license": "MIT",
 	"repository": "https://github.com/violacss/viola.git",

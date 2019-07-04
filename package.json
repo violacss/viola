@@ -2,10 +2,10 @@
 	"name": "viola-monorepo",
 	"private": true,
 	"scripts": {
-		"build": "lerna run build --stream",
-		"test": "lerna run test --stream",
+		"build": "lerna run build",
+		"test": "lerna run test",
 		"bs": "lerna bootstrap",
-		"ver": "lerna version --conventional-commits --sign-git-commit --sign-git-tag",
+		"ver": "lerna version patch --conventional-commits --sign-git-commit --sign-git-tag --no-push --no-commit-hooks",
 		"pub": "lerna publish from-package"
 	},
 	"devDependencies": {
