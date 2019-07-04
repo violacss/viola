@@ -20,7 +20,7 @@ you can set all the preferred design parameters in a config file and create
 your desired CSS classes.
 
 [version]: https://img.shields.io/npm/v/@violacss/viola.svg?logo=npm&style=flat-square
-[travis]: https://img.shields.io/travis/violacss/viola.svg?logo=travis&style=flat-square
+[travis]: https://img.shields.io/travis/violacss/viola/master.svg?logo=travis&style=flat-square
 [size]: https://img.shields.io/bundlephobia/minzip/@violacss/viola.svg?logo=javascript&label=size&style=flat-square
 [downloads]: https://img.shields.io/npm/dt/@violacss/viola.svg?style=flat-square
 [lerna]: https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=flat-square
