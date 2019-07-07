@@ -18,6 +18,7 @@ before_install:
 before_script:
   - yarn bs
 script:
+  - yarn test
   - yarn build
 notifications:
   email: false

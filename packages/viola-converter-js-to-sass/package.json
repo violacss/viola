@@ -1,19 +1,24 @@
 {
-	"name": "@violacss/core",
+	"name": "@violacss/converter-js-to-sass",
 	"version": "0.0.0",
-	"description": "It is a supplementary JavaScript library which configures ViolaCSS",
+	"description": "converter-js-to-sass is a helper to convert JavaScript data types to SASS data types",
 	"license": "MIT",
 	"repository": "https://github.com/violacss/viola.git",
+	"main": "src/index.js",
 	"scripts": {
-		"build": "echo hi"
+		"test": "yarn lint && jest",
+		"lint": "eslint src test"
 	},
 	"author": {
 		"name": "Amir Hossein Abdolkhalegh",
 		"url": "https://twitter.com/amirhosseinab"
 	},
 	"keywords": [
-		"violacss",
-		"viola"
+		"SASS",
+		"SCSS",
+		"JavaScript",
+		"DataType",
+		"Converter"
 	],
 	"publishConfig": {
 		"access": "public"
@@ -22,12 +27,6 @@
 		"url": "https://github.com/violacss/viola/issues"
 	},
 	"dependencies": {
-		"@violacss/converter-js-to-sass": "^0.0.0",
-		"@violacss/converter-sass-to-js": "^0.0.0",
-		"ajv": "^6.10.1",
-		"ajv-errors": "^1.0.1",
-		"ajv-keywords": "^3.4.0",
-		"cosmiconfig": "^5.2.1",
 		"node-sass": "^4.12.0"
 	}
 }

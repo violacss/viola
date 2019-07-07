@@ -1,7 +1,7 @@
 {
-	"name": "@violacss/core",
-	"version": "0.0.0",
-	"description": "It is a supplementary JavaScript library which configures ViolaCSS",
+  "name": "@violacss/converter-sass-to-js",
+  "version": "0.0.0",
+  "description": "",
 	"license": "MIT",
 	"repository": "https://github.com/violacss/viola.git",
 	"scripts": {
@@ -12,8 +12,10 @@
 		"url": "https://twitter.com/amirhosseinab"
 	},
 	"keywords": [
+		"css-framework",
 		"violacss",
-		"viola"
+		"viola",
+		"bidirectional"
 	],
 	"publishConfig": {
 		"access": "public"
@@ -22,12 +24,6 @@
 		"url": "https://github.com/violacss/viola/issues"
 	},
 	"dependencies": {
-		"@violacss/converter-js-to-sass": "^0.0.0",
-		"@violacss/converter-sass-to-js": "^0.0.0",
-		"ajv": "^6.10.1",
-		"ajv-errors": "^1.0.1",
-		"ajv-keywords": "^3.4.0",
-		"cosmiconfig": "^5.2.1",
 		"node-sass": "^4.12.0"
 	}
 }

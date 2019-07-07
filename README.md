@@ -15,9 +15,20 @@
 [![Twitter Follow][twitter]](https://twitter.com/viola_css)
 
 The primary purpose of the Viola framework is designing direction-agnostic
-pages inherently. Moreover, it is fully customizable and extensible so that
-you can set all the preferred design parameters in a config file (`.violarc`), and create
+pages inherently.
+
+Moreover, it is fully customizable and extensible so that
+you can set all the preferred design parameters in a [config file](#config-files), and generate
 your desired CSS classes.
+
+## Config Files
+
+ViolaCSS supports the following config files:
+- `.viola.yml`
+- `.viola.yaml`
+- `.viola.json`
+- `.viola.config.js`
+
 
 [version]: https://img.shields.io/npm/v/@violacss/viola.svg?logo=npm&style=flat-square
 [travis]: https://img.shields.io/travis/violacss/viola/master.svg?logo=travis&style=flat-square

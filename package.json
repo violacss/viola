@@ -3,7 +3,10 @@
 	"private": true,
 	"scripts": {
 		"build": "lerna run build",
-		"test": "lerna run test",
+		"test": "yarn test:lint && yarn test:jest && yarn test:cov",
+		"test:lint": "eslint packages/**/src packages/**/test",
+		"test:jest": "jest",
+		"test:cov": "codecov",
 		"bs": "lerna bootstrap",
 		"ver": "lerna version patch --conventional-commits --sign-git-commit --sign-git-tag --no-push --no-commit-hooks",
 		"pub": "lerna publish from-package"
@@ -12,6 +15,7 @@
 		"@babel/cli": "^7.4.4",
 		"@babel/core": "^7.4.5",
 		"@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+		"@babel/plugin-transform-destructuring": "^7.5.0",
 		"@babel/preset-env": "^7.4.5",
 		"@commitlint/cli": "^8.0.0",
 		"@commitlint/config-conventional": "^8.0.0",
@@ -28,6 +32,9 @@
 		"lerna": "^3.15.0",
 		"lerna-changelog": "^0.8.2"
 	},
+	"workspaces": [
+		"packages/*"
+	],
 	"engines": {
 		"node": ">= 8",
 		"yarn": ">= 1.16"
