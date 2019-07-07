@@ -1,7 +1,7 @@
 {
-  "name": "@violacss/converter-sass-to-js",
-  "version": "0.0.0",
-  "description": "",
+	"name": "@violacss/converter-sass-to-js",
+	"version": "0.0.1",
+	"description": "",
 	"license": "MIT",
 	"repository": "https://github.com/violacss/viola.git",
 	"scripts": {
