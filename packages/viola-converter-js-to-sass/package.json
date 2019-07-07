@@ -9,6 +9,9 @@
 		"test": "yarn lint && jest",
 		"lint": "eslint src test"
 	},
+	"files": [
+		"src"
+	],
 	"author": {
 		"name": "Amir Hossein Abdolkhalegh",
 		"url": "https://twitter.com/amirhosseinab"
