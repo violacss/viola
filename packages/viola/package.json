@@ -3,7 +3,6 @@
   "version": "0.0.4",
   "description": "Viola is a direction-agnostic and mobile-first functional CSS framework",
   "license": "MIT",
-  "repository": "https://github.com/violacss/viola.git",
   "scripts": {
     "build": "echo hi"
   },
@@ -11,6 +10,11 @@
     "name": "Amir Hossein Abdolkhalegh",
     "url": "https://twitter.com/amirhosseinab"
   },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/violacss/viola.git",
+		"directory": "packages/viola"
+	},
   "keywords": [
     "css-framework",
     "violacss",

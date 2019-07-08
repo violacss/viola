@@ -3,7 +3,6 @@
 	"version": "0.1.0",
 	"description": "converter-sass-to-js is a helper to convert SASS data types to JavaScript data types",
 	"license": "MIT",
-	"repository": "https://github.com/violacss/viola.git",
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "babel src -d dist --delete-dir-on-start --root-mode upward",
@@ -16,6 +15,11 @@
 	"author": {
 		"name": "Amir Hossein Abdolkhalegh",
 		"url": "https://twitter.com/amirhosseinab"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/violacss/viola.git",
+		"directory": "packages/viola-converter-sass-to-js"
 	},
 	"keywords": [
 		"SASS",
