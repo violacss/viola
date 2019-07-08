@@ -1,0 +1,27 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "endOfLine": "lf",
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": [
+        "*.js"
+      ],
+      "options": {
+        "parser": "babel"
+      }
+    },
+    {
+      "files": "*.md",
+      "options": {
+        "printWidth": 50,
+        "useTabs": false,
+        "trailingComma": "none",
+        "proseWrap": "preserve"
+      }
+    }
+  ]
+}

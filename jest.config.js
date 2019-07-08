@@ -4,6 +4,6 @@ module.exports = {
   collectCoverage: true,
   coverageDirectory: './coverage/',
   transform: {
-    '^.+\\.js$': '<rootDir>/node_modules/babel-jest'
-  }
+    '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
+  },
 }

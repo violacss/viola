@@ -41,3 +41,11 @@ typings/
 .serverless/
 .fusebox/
 .dynamodb/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+package-lock.json
+coverage/

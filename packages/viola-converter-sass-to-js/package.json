@@ -1,40 +1,40 @@
 {
-	"name": "@violacss/converter-sass-to-js",
-	"version": "0.1.0",
-	"description": "converter-sass-to-js is a helper to convert SASS data types to JavaScript data types",
-	"license": "MIT",
-	"main": "dist/index.js",
-	"scripts": {
-		"build": "babel src -d dist --delete-dir-on-start --root-mode upward",
-		"test": "yarn lint && yarn build && jest",
-		"lint": "eslint src test"
-	},
-	"files": [
-		"dist"
-	],
-	"author": {
-		"name": "Amir Hossein Abdolkhalegh",
-		"url": "https://twitter.com/amirhosseinab"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/violacss/viola.git",
-		"directory": "packages/viola-converter-sass-to-js"
-	},
-	"keywords": [
-		"SASS",
-		"SCSS",
-		"JavaScript",
-		"DataType",
-		"Converter"
-	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"bugs": {
-		"url": "https://github.com/violacss/viola/issues"
-	},
-	"dependencies": {
-		"node-sass": "^4.12.0"
-	}
+  "name": "@violacss/converter-sass-to-js",
+  "version": "0.1.0",
+  "description": "converter-sass-to-js is a helper to convert SASS data types to JavaScript data types",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist --delete-dir-on-start --root-mode upward",
+    "test": "yarn lint && yarn build && jest",
+    "lint": "eslint src test"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "Amir Hossein Abdolkhalegh",
+    "url": "https://twitter.com/amirhosseinab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/violacss/viola.git",
+    "directory": "packages/viola-converter-sass-to-js"
+  },
+  "keywords": [
+    "SASS",
+    "SCSS",
+    "JavaScript",
+    "DataType",
+    "Converter"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/violacss/viola/issues"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
 }

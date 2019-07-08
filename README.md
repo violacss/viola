@@ -6,29 +6,24 @@
 <!-- [![Size][size]](https://unpkg.com/@violacss/viola)
 [![Downloads][downloads]](https://www.npmjs.com/package/@violacss/viola)-->
 
-[![Travis][travis]](https://travis-ci.org/violacss/viola)
-[![Lerna][lerna]](https://lerna.js.org/)
-[![License][license]](https://github.com/violacss/viola/blob/master/LICENSE)
+[![Travis][travis]](https://travis-ci.org/violacss/viola) [![Lerna][lerna]](https://lerna.js.org/) [![License][license]](https://github.com/violacss/viola/blob/master/LICENSE)
 
->  Viola is a direction-agnostic and mobile-first functional CSS framework
+> Viola is a direction-agnostic and mobile-first functional CSS framework
 
 [![Twitter Follow][twitter]](https://twitter.com/viola_css)
 
-The primary purpose of the Viola framework is designing direction-agnostic
-pages inherently.
+The primary purpose of the Viola framework is designing direction-agnostic pages inherently.
 
-Moreover, it is fully customizable and extensible so that
-you can set all the preferred design parameters in a [config file](#config-files), and generate
-your desired CSS classes.
+Moreover, it is fully customizable and extensible so that you can set all the preferred design parameters in a [config file](#config-files), and generate your desired CSS classes.
 
 ## Config Files
 
 ViolaCSS supports the following config files:
+
 - `.viola.yml`
 - `.viola.yaml`
 - `.viola.json`
 - `.viola.config.js`
-
 
 [version]: https://img.shields.io/npm/v/@violacss/viola.svg?logo=npm&style=flat-square
 [travis]: https://img.shields.io/travis/violacss/viola/master.svg?logo=travis&style=flat-square

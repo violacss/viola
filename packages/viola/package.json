@@ -10,11 +10,11 @@
     "name": "Amir Hossein Abdolkhalegh",
     "url": "https://twitter.com/amirhosseinab"
   },
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/violacss/viola.git",
-		"directory": "packages/viola"
-	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/violacss/viola.git",
+    "directory": "packages/viola"
+  },
   "keywords": [
     "css-framework",
     "violacss",

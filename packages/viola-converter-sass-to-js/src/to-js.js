@@ -1,9 +1,9 @@
-import {types as sassTypes} from 'node-sass';
+import { types as sassTypes } from 'node-sass'
 
 export default toJs()
 
 function toJs() {
-  return function (sassValue) {
+  return function(sassValue) {
     return toJsValue(sassValue)
   }
 
@@ -28,13 +28,14 @@ function toJs() {
 
   function toNumber(value) {
     if (value.getUnit()) {
-      return {value: value.getValue(), unit: value.getUnit()}
+      return { value: value.getValue(), unit: value.getUnit() }
     }
     return value.getValue()
   }
 
   function toString(value) {
-    return value.getValue()
+    return value
+      .getValue()
       .replace(/^"/, '')
       .replace(/"$/, '')
   }
@@ -53,16 +54,15 @@ function toJs() {
   }
 
   function toArray(value) {
-    return [...Array(value.getLength()).keys()]
-      .map(i => toJsValue(value.getValue(i)))
+    return [...Array(value.getLength()).keys()].map(i =>
+      toJsValue(value.getValue(i))
+    )
   }
 
   function toObject(value) {
-    return [...Array(value.getLength()).keys()]
-      .reduce((obj, _, i) => {
-        obj[value.getKey(i).getValue()] = toJsValue(value.getValue(i))
-        return obj
-      }, {})
+    return [...Array(value.getLength()).keys()].reduce((obj, _, i) => {
+      obj[value.getKey(i).getValue()] = toJsValue(value.getValue(i))
+      return obj
+    }, {})
   }
-
 }

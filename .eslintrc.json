@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "rules": {
+    "semi": ["off", "always"],
+    "quotes": ["warn", "single"],
+    "prettier/prettier": "error"
+  },
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "plugins": ["prettier"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parser": "babel-eslint"
+}

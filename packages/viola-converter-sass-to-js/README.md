@@ -13,7 +13,9 @@ This is a helper to convert SASS data types to JavaScript data types
 ```bash
 $ yarn add @violacss/converter-sass-to-js
 ```
+
 or
+
 ```bash
 $ npm i @violacss/converter-sass-to-js --save
 ```
@@ -21,11 +23,11 @@ $ npm i @violacss/converter-sass-to-js --save
 ## Usage
 
 ```javascript
-const sass = require('node-sass');
+const sass = require('node-sass')
 
-const toJs = require('@violacss/converter-sass-to-js');
-const number = new sass.types.Number(42,'rem');
-const result = toJs(number); // -> {value: 42, unit:'rem'}
+const toJs = require('@violacss/converter-sass-to-js')
+const number = new sass.types.Number(42, 'rem')
+const result = toJs(number) // -> {value: 42, unit:'rem'}
 ```
 
 [travis]: https://img.shields.io/travis/violacss/viola/master.svg?logo=travis&style=flat-square

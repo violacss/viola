@@ -1,18 +1,12 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 # [0.1.0](https://github.com/violacss/viola/compare/@violacss/converter-sass-to-js@0.0.1...@violacss/converter-sass-to-js@0.1.0) (2019-07-08)
 
-
 ### Features
 
-* **converter-sass-to-js:** add toJs converter ([3e90e4b](https://github.com/violacss/viola/commit/3e90e4b))
-
-
-
-
+- **converter-sass-to-js:** add toJs converter ([3e90e4b](https://github.com/violacss/viola/commit/3e90e4b))
 
 ## 0.0.1 (2019-07-07)
 

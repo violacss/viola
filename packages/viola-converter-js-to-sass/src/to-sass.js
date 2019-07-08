@@ -1,9 +1,9 @@
-import {types as sassTypes} from 'node-sass';
+import { types as sassTypes } from 'node-sass'
 
 export default toSass(sassTypes)
 
 function toSass(t) {
-  return function (jsValue, unit = '', commaSeparated = true) {
+  return function(jsValue, unit = '', commaSeparated = true) {
     return toSassValue(jsValue, unit, commaSeparated)
   }
 
@@ -57,11 +57,10 @@ function toSass(t) {
       return toColor(value)
     }
     let map = new t.Map(Object.keys(value).length)
-    Object.keys(value)
-      .map((k, i) => {
-        map.setKey(i, toString(k))
-        map.setValue(i, toSassValue(value[k], '', commaSeparated))
-      })
+    Object.keys(value).map((k, i) => {
+      map.setKey(i, toString(k))
+      map.setValue(i, toSassValue(value[k], '', commaSeparated))
+    })
     return map
   }
 
@@ -74,11 +73,16 @@ function toSass(t) {
   }
 
   function isNumber(value) {
-    return Object.keys(value).length === 2 &&
-      value.value && value.unit;
+    return Object.keys(value).length === 2 && value.value && value.unit
   }
 
   function isColor(value) {
-    return Object.keys(value).length === 4 && value.red && value.green && value.blue && value.alpha;
+    return (
+      Object.keys(value).length === 4 &&
+      value.red &&
+      value.green &&
+      value.blue &&
+      value.alpha
+    )
   }
 }

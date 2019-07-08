@@ -1,37 +1,37 @@
 {
-	"name": "@violacss/core",
-	"version": "0.0.4",
-	"description": "It is a supplementary JavaScript library which configures ViolaCSS",
-	"license": "MIT",
-	"scripts": {
-		"build": "echo hi"
-	},
-	"author": {
-		"name": "Amir Hossein Abdolkhalegh",
-		"url": "https://twitter.com/amirhosseinab"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/violacss/viola.git",
-		"directory": "packages/viola-core"
-	},
-	"keywords": [
-		"violacss",
-		"viola"
-	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"bugs": {
-		"url": "https://github.com/violacss/viola/issues"
-	},
-	"dependencies": {
-		"@violacss/converter-js-to-sass": "^0.1.0",
-		"@violacss/converter-sass-to-js": "^0.1.0",
-		"ajv": "^6.10.1",
-		"ajv-errors": "^1.0.1",
-		"ajv-keywords": "^3.4.0",
-		"cosmiconfig": "^5.2.1",
-		"node-sass": "^4.12.0"
-	}
+  "name": "@violacss/core",
+  "version": "0.0.4",
+  "description": "It is a supplementary JavaScript library which configures ViolaCSS",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo hi"
+  },
+  "author": {
+    "name": "Amir Hossein Abdolkhalegh",
+    "url": "https://twitter.com/amirhosseinab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/violacss/viola.git",
+    "directory": "packages/viola-core"
+  },
+  "keywords": [
+    "violacss",
+    "viola"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/violacss/viola/issues"
+  },
+  "dependencies": {
+    "@violacss/converter-js-to-sass": "^0.1.0",
+    "@violacss/converter-sass-to-js": "^0.1.0",
+    "ajv": "^6.10.1",
+    "ajv-errors": "^1.0.1",
+    "ajv-keywords": "^3.4.0",
+    "cosmiconfig": "^5.2.1",
+    "node-sass": "^4.12.0"
+  }
 }

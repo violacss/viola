@@ -1,16 +1,13 @@
 {
-	"packages": [
-		"packages/*"
-	],
-	"version": "independent",
-	"npmClient": "yarn",
-	"useWorkspaces": true,
-	"command": {
-		"version": {
-			"allowBranch": "master",
-			"createRelease": "github",
-			"message": "chore: publish package"
-		}
-	}
+  "packages": ["packages/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "createRelease": "github",
+      "message": "chore: publish package"
+    }
+  }
 }
-
