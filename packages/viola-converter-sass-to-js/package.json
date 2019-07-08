@@ -1,6 +1,6 @@
 {
 	"name": "@violacss/converter-sass-to-js",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "converter-sass-to-js is a helper to convert SASS data types to JavaScript data types",
 	"license": "MIT",
 	"repository": "https://github.com/violacss/viola.git",
