@@ -8,7 +8,7 @@
 
 This is a helper to convert JavaScript data types to SASS data types
 
-## installation
+## Installation
 
 ```bash
 $ yarn add @violacss/converter-js-to-sass
