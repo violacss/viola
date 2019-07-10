@@ -3,8 +3,9 @@
   "version": "0.0.4",
   "description": "It is a supplementary JavaScript library which configures ViolaCSS",
   "license": "MIT",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "echo hi"
+    "build": "babel src -d dist --delete-dir-on-start --root-mode upward"
   },
   "author": {
     "name": "Amir Hossein Abdolkhalegh",

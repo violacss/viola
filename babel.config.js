@@ -14,6 +14,7 @@ module.exports = function(api) {
   let plugins = [
     '@babel/plugin-proposal-object-rest-spread',
     '@babel/plugin-transform-destructuring',
+    '@babel/plugin-proposal-class-properties',
   ]
 
   if (process.env.NODE_ENV !== 'test' && process.env.npm_package_name) {

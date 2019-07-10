@@ -3,13 +3,10 @@
   "tabWidth": 2,
   "semi": false,
   "singleQuote": true,
-  "endOfLine": "lf",
   "arrowParens": "avoid",
   "overrides": [
     {
-      "files": [
-        "*.js"
-      ],
+      "files": ["*.js"],
       "options": {
         "parser": "babel"
       }
