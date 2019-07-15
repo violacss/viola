@@ -28,7 +28,7 @@
   "dependencies": {
     "@violacss/converter-js-to-sass": "^0.1.0",
     "@violacss/converter-sass-to-js": "^0.1.0",
-    "ajv": "^6.10.1",
+    "ajv": "^6.10.2",
     "ajv-errors": "^1.0.1",
     "ajv-keywords": "^3.4.0",
     "cosmiconfig": "^5.2.1",
